@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Lobster|Open+Sans:300,400,600,700,800");
+
+.div1 {
+ 	margin-top: -50; 
+   	height: 100vh; /*dimensao*/
+ 	width: 100vw; /*dimensao*/
+ 	background-image: url(div1.png); /*img do wallpaper*/
+  	background-repeat: no-repeat; /*nao repetir*/
+  	background-size: cover; /*cobrir a tela*/
+ 	position: fixed; /*para nao permitir rolagem*/
+ 	overflow: hidden; /*para nao deixar rolar caso a img for maior que a div*/
+  	margin-left: -10px; /*margem*/
+  	margin-right: -30px; /*margem*/
+  	margin-top: -8px; /*margem*/
+}
+.div2 { 
+   	height: 50vh; /*dimensao*/
+ 	width: 50vw; /*dimensao*/
+ 	background-color: blueviolet;
+  	background-size: cover; /*cobrir a tela*/
+ 	position: absolute; /*para nao permitir rolagem*/
+ 	overflow: hidden; /*para nao deixar rolar caso a img for maior que a div*/
+  	margin-left: -10px; /*margem*/
+  	margin-right: -30px; /*margem*/
+  	margin-top: -8px; /*margem*/
+}
+#banner .more {
+			-moz-transition: height 0.2s ease;
+			-webkit-transition: height 0.2s ease;
+			-ms-transition: height 0.2s ease;
+			transition: height 0.2s ease;
+			-moz-animation: more 0.75s ease-out 3s forwards;
+			-webkit-animation: more 0.75s ease-out 3s forwards;
+			-ms-animation: more 0.75s ease-out 3s forwards;
+			animation: more 0.75s ease-out 3s forwards;
+			background-color: rgba(255, 255, 255, 0.15);
+			border: 0;
+			border-radius: 1em 1em 0 0;
+			bottom: -3em;
+			color: rgba(255, 255, 255, 0.75);
+			display: block;
+			height: 3em;
+			left: 50%;
+			margin-left: -1.5em;
+			overflow: hidden;
+			position: absolute;
+			text-indent: 3em;
+			white-space: nowrap;
+			width: 3em;
+			z-index: 2;
+			border-radius: 100%;
+			text-decoration: none;
+		}
+
+	#primeira{
+width: 400px;
+height: 400px;
+background: #ccc;
+display:table;
+	}
+	#segunda{
+		width: 400px;
+height: 400px;
+background: #ccc;
+display:table;
+	}
+
+
+
+
+
+

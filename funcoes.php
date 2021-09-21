@@ -3,8 +3,8 @@
 function teste(){
 return "Hello World <br>";
 
-
 }
+
 echo teste();
 echo teste();
 
@@ -18,10 +18,8 @@ function converte($sal){
 	return number_format((float)$sal, 2,',','.');  //declaro o formato do numero que eu desejo.
 }
 
-$valor1 = salario()*3;
-$valor =  converte($valor1);
+$valor =  converte(salario()*3);
 
 echo 'Jose recebeu 3 salarios: '. $valor;
-
 
  ?>
